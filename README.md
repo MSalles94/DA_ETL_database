@@ -3,12 +3,20 @@ I have been a commercial analyst for a while, and I've developed some controls a
 
 https://www.kaggle.com/code/ayushmi77al/sales-data-analysis-of-electronic-store/input
 
-## AUTOR EXPERIENCE - MATHEUS CORDEIRO SALLES
-
-I started working in a supply company which sells and delivers beer.
-As the main analyst in the company, my role is to handle data and generate reports for both operations and management. I've grown significantly as an analyst while creating dashboards using Excel and Qlik Sense, but the most powerful tool I've encountered is Python. Regardless of the size of the data I work with, Python consistently surpasses other tools I've tried.
-Automating reports is a very welcome idea. I used this as the basis for implementing Python in my job.
-
 ## PROJECT
 
-The aim here is to construct a comprehensive SQL database containing supply information and utilize this data to generate reports.
+The aim here is to construct a comprehensive SQL database containing supply information and utilize this data to generate reports. Here I expect to show some skills in ETL using pandas library and SQLite to craft a simple database.
+
+### Details
+
+Tables created are basic in a commercial area, as the following:
+
+    -PRODUCTS       -register of every product with his properties 
+    -PRICE          -a reference table to save every price listed 
+    -CLIENTS        -the register of every client
+    -SALESMAN       -basic register of the salesforce team
+    -ORDERS MAIN    -the main orders table
+    -ORDERS ITEM    -the item orders table
+
+I know a sales control sistem is way more complex than it, but my target is not to create a new ERP, I only need a minimum complexity to show ETL skills and some SQL SELECT comands.
+
