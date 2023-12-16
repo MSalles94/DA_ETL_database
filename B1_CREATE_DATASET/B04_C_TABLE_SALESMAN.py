@@ -27,6 +27,6 @@ class table_salesman():
         self.salesman['supervisor']=self.salesman['ID_sector'].map(lambda x : int(str(x)[0])*100)
     
     def print_to_csv(self):
-        self.salesman.to_csv('../NEW_DATASET/A04_TAB_SALESMAN.csv',sep=';',decimal=',',index=False)
+        self.salesman.to_csv('./NEW_DATASET/A04_TAB_SALESMAN.csv',sep=';',decimal=',',index=False)
     
         

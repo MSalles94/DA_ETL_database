@@ -104,5 +104,6 @@ class table_clients():
                  'email','register_date','zipcode','state','city','No','street','visit_day']
         self.clients=self.clients[columns]   
 
-        self.clients.to_csv('../NEW_DATASET/A03_TAB_CLIENTS.csv',decimal=',',sep=';',index=False)  
+        self.clients.to_csv('./NEW_DATASET/A03_TAB_CLIENTS.csv',decimal=',',sep=';',index=False)  
 
+table_clients()

@@ -66,4 +66,4 @@ class table_order_main():
         self.sales_orders.drop(columns=['week','month'],inplace=True)
     
     def print_data(self):
-        self.sales_orders.to_csv('../NEW_DATASET/A05_TAB_ORDER_MAIN.csv',sep=';',decimal=',',index=False) 
+        self.sales_orders.to_csv('./NEW_DATASET/A05_TAB_ORDER_MAIN.csv',sep=';',decimal=',',index=False) 

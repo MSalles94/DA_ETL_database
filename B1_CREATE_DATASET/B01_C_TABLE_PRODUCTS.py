@@ -81,6 +81,6 @@ class table_products():
 
     def print_to_csv(self):
 
-        self.tab_products.to_csv(path_or_buf='../NEW_DATASET/A01_TAB_PRODUCTS.csv',sep=';',decimal=',',index=False)
+        self.tab_products.to_csv(path_or_buf='./NEW_DATASET/A01_TAB_PRODUCTS.csv',sep=';',decimal=',',index=False)
 
 

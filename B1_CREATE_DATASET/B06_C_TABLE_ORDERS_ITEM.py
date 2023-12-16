@@ -98,6 +98,6 @@ class table_order_item():
         self.sales_orders=sales_orders
         
     def print_table(self):
-        self.sales_orders.to_csv('../NEW_DATASET/A06_TAB_ORDER_ITEM.csv',sep=';',decimal=',',index=False)
+        self.sales_orders.to_csv('./NEW_DATASET/A06_TAB_ORDER_ITEM.csv',sep=';',decimal=',',index=False)
 
 table_order_item()
