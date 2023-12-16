@@ -97,13 +97,13 @@ class table_clients():
             for j in self.clients.loc[self.clients['ID_sector']==i,'ID_client'].unique():
                 self.clients.loc[self.clients['ID_client']==j,'visit_day']=day_week%7 if day_week%7 else 7 
                 day_week=day_week+1
+                
 
     def print_to_csv(self):
         #organize columns
         columns=['ID_client','name','cluster','ID_sector','phone',
-                 'email','register_date','zipcode','state','city','No','street','visit_day']
+                 'email','register_date','zipcode','state','city','No','street','visit_day',]
         self.clients=self.clients[columns]   
 
         self.clients.to_csv('./NEW_DATASET/A03_TAB_CLIENTS.csv',decimal=',',sep=';',index=False)  
 
-table_clients()
